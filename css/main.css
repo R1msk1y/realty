@@ -4,6 +4,16 @@
   position: relative;
 }
 
+.card-link {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+.card-link:hover {
+  opacity: 0.8;
+  transform: translateY(-5px);
+}
+
 .card__badges {
   display: flex;
   column-gap: 10px;
