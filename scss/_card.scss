@@ -84,3 +84,11 @@
     line-height: 1.14;
     color: #777777;
 }
+.cards-holder{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .card{
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,16 @@
+.widget__title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.16;
+  color: black;
+  position: relative;
+}
+.widget__title:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  top: 0;
+}/*# sourceMappingURL=sidebar.css.map */

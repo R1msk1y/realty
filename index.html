@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <main class="main">
+            <main class="main cards-holder">
                 <!-- card -->
                 <a class="card-link" href="#">
                     <div class="card">
@@ -246,13 +246,50 @@
                     </div>
                 </a>
                  <!--// card -->
+
+                 <button class="more">
+                    <img src="./img/add.svg" alt="Показать еще">
+                    Показать еще
+                 </button>
                  
 
               
 
 
             </main>
-            <aside class="sidebar"></aside>
+            <aside class="sidebar">
+                <div class="widget">
+                    <div class="widget__title">Близость к метро</в>
+                    <div class="widget__body">
+                        <div class="location">
+                            <div class="location__row">
+                           
+                            
+                           <label for="location-01">
+
+                            <input type="checkbox" id="location-01" checked>
+                            <div class="location__btn location__btn--active">&lt; 30</div>
+
+                           </label>
+                          
+                            
+
+                                <input type="checkbox" id="location-02" checked>
+                                <button class="location__btn location__btn--active">10-20</button>
+                                <input type="checkbox" id="location-03">
+                                <button class="location__btn">20-30</button>
+                                <input type="checkbox" id="location-04">
+                                <button class="location__btn">30+</button>   
+                            </div>
+                            <div class="location__row">
+                                <input type="checkbox" id="location-05">
+                                <button class="location__btn">Любая</button>   
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </aside>
         </div>
     </div>
     

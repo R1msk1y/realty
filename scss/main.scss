@@ -1,4 +1,5 @@
 @import 'card';
+@import 'sidebar';
 *,
 *::after,
 *::before{
@@ -15,6 +16,7 @@ body{
 img{
     display: block;
 }
+
 .container{
     max-width: 1170px;
     margin: 0 auto;
@@ -27,11 +29,26 @@ img{
 }
 .main{
     width: 870px;
-    height: 200px;
-    background-color: blue;
+   
 }
 .sidebar{
     width: 270px;
-    height: 200px;
-    background-color: red;
+   
+}
+// btn
+.more{
+    width: 100%;
+    height: 80px;
+    background: #E5E5E5;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #4290c9;
+    border: none;
+    img{
+        display: inline-block;
+        vertical-align: bottom;
+    }
 }
